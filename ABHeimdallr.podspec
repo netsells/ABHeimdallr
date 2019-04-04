@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ABHeimdallr'
-  s.version          = '4.0.0'
+  s.version          = '1.0.0'
   s.summary          = 'Swift 5 version of Heimdallr'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 A Swift 5 version of Heimdallr
                        DESC
 
-  s.homepage         = 'https://github.com/Alex/Heimdallr'
+  s.homepage         = 'https://github.com/ABTucanae/ABHeimdallr'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'Apache', :file => 'LICENSE' }
   s.author           = { 'Alex' => 'tucanae@icloud.com' }
-  s.source           = { :git => 'https://github.com/ABTucanae/Heimdallr.swift.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ABTucanae/ABHeimdallr.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
