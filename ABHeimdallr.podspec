@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ABHeimdallr'
-  s.version          = '4.0.0'
+  s.version          = '4.0.1'
   s.summary          = 'Swift 5 version of Heimdallr'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ A Swift 5 version of Heimdallr
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'ABHeimdallr/Classes/**/*'
+  s.source_files = 'ABHeimdallr/**/*.swift'
   
   # s.resource_bundles = {
   #   'ABHeimdallr' => ['ABHeimdallr/Assets/*.png']
