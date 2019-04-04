@@ -1,0 +1,16 @@
+PODS:
+  - ABHeimdallr (0.1.0)
+
+DEPENDENCIES:
+  - ABHeimdallr (from `../`)
+
+EXTERNAL SOURCES:
+  ABHeimdallr:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ABHeimdallr: 760995d488c8c40eef9fb41f629bd8e410ff48ab
+
+PODFILE CHECKSUM: 9dfab5f4d3b1a7dbb363360d3ad1418e8219a024
+
+COCOAPODS: 1.6.1

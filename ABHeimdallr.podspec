@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ABHeimdallr'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ABHeimdallr.'
+  s.version          = '4.0.0'
+  s.summary          = 'Swift 5 version of Heimdallr'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A Swift 5 version of Heimdallr
                        DESC
 
-  s.homepage         = 'https://github.com/Alex/ABHeimdallr'
+  s.homepage         = 'https://github.com/Alex/Heimdallr'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'Apache', :file => 'LICENSE' }
   s.author           = { 'Alex' => 'tucanae@icloud.com' }
-  s.source           = { :git => 'https://github.com/Alex/ABHeimdallr.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ABTucanae/Heimdallr.swift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'ABHeimdallr/Classes/**/*'
   
