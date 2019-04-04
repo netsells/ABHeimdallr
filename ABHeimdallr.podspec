@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ABHeimdallr'
-  s.version          = '1.0.0'
+  s.version          = '4.0.0'
   s.summary          = 'Swift 5 version of Heimdallr'
 
 # This description is used to generate tags and improve search results.
